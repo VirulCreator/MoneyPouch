@@ -1,0 +1,10 @@
+name: MoneyPouch
+version: 1.0.0
+api: 3.0.0
+main: MoneyPouch\Main
+author: CLADev & VirulStudios Team
+
+commands:
+  moneypouch:
+    description: "Give moneypouch to a player"
+    aliases: ["mp"]

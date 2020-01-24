@@ -1,0 +1,19 @@
+---
+messages:
+  chest:
+    name: "§l§dMoneyPouch"
+    lore: "\n§eTier Level: {level}\n§6Min: §f{min}\n§6Max: §f{max}"
+  given: "§aYou have received MoneyPouch"
+  from: "§eYou gave {player} MoneyPouch {level}"
+  won: "§7You won {amount}"
+tiers:
+  1:
+    min: 100
+    max: 1000
+  2:
+    min: 200
+    max: 5000
+  3:
+    min: 500
+    max: 7000
+...
