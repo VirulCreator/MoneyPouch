@@ -1,6 +1,8 @@
 # MoneyPouch
 This plugin will allow you to give your player money pouches which will give your players money within a given range. You can configure each pouch to give either money.
 
+Check this out! https://virulcreator.github.io/MoneyPouch/
+
 ![MoneyPouch creation](media/MoneyPouch.gif)
 
 ## Features
