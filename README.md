@@ -30,3 +30,9 @@ Your code has to be readable, tested and bug-free.
 
 ## Todo
 - [ ] **Claim effects:** Add (optional)cosmetic effects when claiming a MoneyPouch
+
+## Commands
+/moneypouch : base command
+/moneypouch <user> <tier> : giving a player a pouch
+/moneypouch <tier> [player](required if using as console) [amount] : give/receive a money pouch
+/reload : reload the config
