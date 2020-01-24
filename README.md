@@ -34,5 +34,39 @@ Your code has to be readable, tested and bug-free.
 ## Commands
 /moneypouch : base command
 /moneypouch <user> <tier> : giving a player a pouch
-/moneypouch <tier> [player](required if using as console) [amount] : give/receive a money pouch
+/moneypouch c
 /reload : reload the config
+
+## Commands
+
+| Command        | Description           |
+| ------------- |:--------------|
+| /moneypouch      | base command     |
+| /moneypouch | <user> <tier> : giving a player a pouch|
+| /moneypouch |<tier> [player](required if using as console) [amount] : give/receive a money pouch |
+| /reload | OP Command to reload |
+
+---
+## Config
+```yaml
+---
+messages:
+  chest:
+    name: "§l§dMoneyPouch"
+    lore: "\n§eTier Level: {level}\n§6Min: §f{min}\n§6Max: §f{max}"
+  given: "§aYou have received MoneyPouch"
+  from: "§eYou gave {player} MoneyPouch {level}"
+
+tiers:
+  1:
+    min: 100
+    max: 1000
+  2:
+    min: 200
+    max: 5000
+  3:
+    min: 500
+    max: 7000
+...
+```
+---
