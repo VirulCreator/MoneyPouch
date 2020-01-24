@@ -27,3 +27,6 @@ I will fix the issue as soon as possible.
 You are free to contribute to the project.
 If you open a pull request, make sure you contribute to the **development** branch.
 Your code has to be readable, tested and bug-free.
+
+## Todo
+- [ ] **Claim effects:** Add (optional)cosmetic effects when claiming a MoneyPouch
